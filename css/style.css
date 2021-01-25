@@ -1,0 +1,118 @@
+h1 {
+    color:rgb(255, 247, 0);
+    background-color:crimson;
+
+}
+
+* {
+    /* background-color:turquoise;*/
+    /* margin:0;
+    padding:0; */
+}
+
+body{
+    /* source image: https://www.illumina.com/company/news-center/feature-articles/bottlenose-dolphin-genome-made-available-to-researchers.html */
+    /*background-image:url("../assets/dolphin.jpg");
+    background-repeat:no-repeat;*/
+    
+    
+}
+
+p {
+    
+    
+    
+
+
+    /* This is just a way of doing the same thing on one line */
+    /* font:bold 44px 'Times New Roman',Courier,serif; 
+    font:bold 2.75em 'Times New Roman',Courier,serif; */
+    /* 1em is usually 16px */
+
+    /* line-height:6px; */
+
+    /* margin:0px;
+    border-width: 4px;
+    border-style: solid; */
+
+    /* this does the same thing on one line */
+    /* border:tomato 6px dashed;
+
+    border-right-color:darkblue;
+
+    padding:12px; */
+
+}
+
+.title-box{
+    color:yellowgreen;
+    font-family:'Times New Roman', Courier, serif;
+    font-size:24px;
+    font-weight:normal; 
+
+    border:rgb(233, 35, 0) 10px solid;
+
+}
+
+.container {
+    border:violet 6px dashed;
+    width:75%;
+    margin:auto;
+}
+
+.text-1 {
+    
+}
+
+.thinking h1{
+    color:black;
+    background-color:white;
+
+    text-decoration: underline red;
+}
+
+.states h2 {
+    text-align:center;
+}
+
+.states {
+    border:1px solid gray;
+    padding:10px;
+    border-radius:15px;
+}
+
+.states ul{
+    /*list-style:square;*/
+}
+
+.states li {
+  /* Image source: https://www.123rf.com/photo_69255153_stock-vector-colored-rocket-ship-icon-in-flat-design-simple-spaceship-icon-isolated-on-white-background-vector-il.html */
+list-style-image:url("../assets/rocket-copy.jpg");
+}
+
+.button {
+    background-color:black;
+    color:white;
+    padding:10px 15px;
+    border:1px solid gray;
+    text-decoration:none;
+
+    width:33.3%;
+    display:block;
+    float:left;
+    box-sizing:border-box;
+}
+
+.button:hover{
+    background-color:red;
+    
+}
+
+.navigation-bar {
+    position:relative;
+    top:100px;
+    left:200px;
+
+    width:70%;
+
+}
